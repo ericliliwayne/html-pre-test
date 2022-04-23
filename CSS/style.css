@@ -40,6 +40,36 @@ section>*{
     flex-basis: calc(100% - 25px);
    /* background-color: lightsalmon;*/
 }
+.menu,table,td,tr{
+    display: flex;
+    flex-direction: column;
+    font-family: '標楷體';
+    justify-content:flex-start;
+    
+}
+.m1{
+    font-family: '標楷體';
+    font-size: 24px;
+    color: #FF00FF;
+    text-decoration: underline;
+    text-decoration-color: #000000;
+    text-align: center;
+    margin-bottom: 10px;
+    /*background-image: url("/images/menu1.png");*/
+}
+.m2{
+    font-family: '標楷體';
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    background-image: url("/images/menu1.png");
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 20%;
+}
+.m2:hover{
+    background-image: url("/images/menu2.png");
+}
 /*aside .update*/
 .update{
     flex-basis: 25px;

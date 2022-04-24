@@ -66,6 +66,7 @@ section>*{
     margin-top: 5px;
     padding: 10px;
     border-radius: 20%;
+    
 }
 .m2:hover{
     background-image: url("/images/menu2.png");

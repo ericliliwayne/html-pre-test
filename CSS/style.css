@@ -74,6 +74,7 @@ section>*{
 /*aside .update*/
 .update{
     flex-basis: 25px;
+    display: inline-block;
     font-family: '標楷體';
     color: #000000;
     text-align: center;
@@ -99,7 +100,7 @@ section>*{
 /*section .main*/
 .content{
     flex-basis: calc(100% - 29px);
-    background-image:url("/images/0101.jpg");
+    /*background-image:url("/images/0101.jpg");*/
     background-repeat: repeat;
     /*background-color: lightgreen;*/
 }
@@ -114,9 +115,10 @@ section>*{
     /*background-color: lightskyblue;*/
 }
 .content>img{
-    margin: 10px auto;
+    margin: 0px auto;
 }
 .content>div{
+    
     text-align: center;
     color: #0000FF;
     font-weight:bold;

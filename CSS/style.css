@@ -47,6 +47,9 @@ section>*{
     justify-content:flex-start;
     
 }
+#time:hover{
+    background-color: lightcyan;
+}
 .m1{
     font-family: '標楷體';
     font-size: 24px;
@@ -111,6 +114,7 @@ section>*{
 }
 /*footer*/
 .footer{
+    display: inline;
     flex-basis: 1000px;
     height: 20px;
     font-family: '標楷體';
